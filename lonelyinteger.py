@@ -1,7 +1,7 @@
 # input : arr = [1,2,3,4,4,3,2,5,1]
-# output : 5
+# output : 5 
 def lonelyinteger(arr):
-    d={} 
+    d={}
     for i in range(len(arr)):
         try:
             d[arr[i]] = d.get(arr[i]) + 1
